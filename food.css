@@ -12,13 +12,16 @@ a{
 	text-decoration: none;
 	text-decoration-color: #808080;
 	color: black;
-	margin-left: 4rem;
 	margin-top: 0rem;
 	padding-top: 0rem;
+	margin-left: 4rem;
 }
+
+
 
 a:hover{
 	color: #808080;
+	
 }
 
 .gallery{
@@ -31,6 +34,7 @@ a:hover{
 }
 
 .gallery-item{
-	padding-bottom: .05rem;
-	padding-top: 2rem;
+	padding: 0.05rem;
+	margin: 0.5rem;
 }
+
