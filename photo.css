@@ -6,7 +6,18 @@
 	padding-left: 3rem;
 }
 
-a{
+/*a{
+	font-family: 'Century Gothic', sans-serif;
+	font-size: .75rem;
+	text-decoration: none;
+	text-decoration-color: #808080;
+	color: black;
+	margin-top: 0rem;
+	padding-top: 0rem;
+	margin-left: .5rem; /* 3.25*/
+/*}*/
+
+.homelink a{
 	font-family: 'Century Gothic', sans-serif;
 	font-size: .75rem;
 	text-decoration: none;
@@ -18,26 +29,45 @@ a{
 }
 
 
-
-a:hover{
+.homelink a:hover{
 	color: #808080;
-	
 }
 
 .gallery{
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	font-family: 'Century Gothic', sans-serif;
 	text-align: center;
 	padding-bottom: .5rem;
 }
 
+.container{
+	width:400px;
+	height:400px;
+	overflow: hidden;
+}
+
+.container img{
+	width:80%;
+}
+
 .gallery-item{
 	padding: 0.05rem;
 	margin: 0.5rem;
+	font-size: 2rem;
+	color: black;
 }
 
-.gallery-item:target{
-	width: 500;
+.gallery-item img{
+	width: 20rem;
+	transition: all ls ease;
+}
+
+
+.gallery-item img:target{
+	width: 40rem;
+	font-size: 1rem;
+	color: red;
 }
 
