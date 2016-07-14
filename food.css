@@ -24,6 +24,43 @@ a:hover{
 	
 }
 
+p{
+	font-family: sans-serif;
+	text-decoration: none;
+	text-decoration-color: #808080;
+	color: black;
+	margin-top: 0rem;
+	padding-top: 0rem;
+	margin-left: 4rem;
+}
+
+h2{
+	font-family: 'Century Gothic', sans-serif;
+	text-decoration: none;
+	text-decoration-color: #808080;
+	color: black;
+	margin-top: 0rem;
+	padding-top: 0rem;
+}
+
+h3{
+	font-family: 'Century Gothic', sans-serif;
+	text-decoration: none;
+	text-decoration-color: #808080;
+	color: black;
+	margin-top: 0rem;
+	padding-top: 0rem;
+}
+
+h1{
+	font-family: 'Century Gothic', sans-serif;
+	text-decoration: none;
+	text-decoration-color: #808080;
+	color: black;
+	margin-top: 0rem;
+	padding-top: 0rem;
+}
+
 .gallery{
 	display: flex;
 	flex-wrap: wrap;
